@@ -7,22 +7,40 @@ You should have received a copy of the GNU GPLv3 license with
 this file. If not, please write to: sagar187@hotmail.com.
 """
 
-import matplotlib as plt
 import numpy as np
-import math
+import cmath
 
 
-class Parameters(object):
+class LorentzFit(object):
 
-def compute_predictions(self):
-    def fetch_wavelength_array(self):
-        wavelengths = np.linspace(start=1, stop=17.5, num=3301)
-        return wavelengths
+    def compute_predictions(self):
+        param_length = np.shape(self.parameters.wavelengths)[0]
+        peaks_length = np.shape(self.gui_values.peaks)[0]
+        e = self.gui_values.e
 
-    def fetch_k(self):
-        k = (2 * math.pi) / get_wavelength_array()
-        return k
+        n = np.zeros([param_length, 1])
+        K = np.zeros([param_length, 1])
 
-    def fetch_frequencies(self):
-        frequencies = (2 * math.pi * 299792458 * 1000000) / get_wavelength_array()
-        return frequencies
+        for ii in range(0, param_length):
+            w = self.parameters.frequencies[ii]
+            for jj in range(0, peaks_length):
+                e = (e + self.gui_values.peak_strengths[jj] * (self.gui_values.peaks[jj] ** 2)) \
+                    / ((self.gui_values.peaks[jj] ** 2) - (w ** 2) + (w * self.gui_values.delta[jj] * 1j))
+
+            n[ii] = (cmath.sqrt(e)).real
+            K[ii] = (cmath.sqrt(e)).imag * -1
+            self.prediction_1[ii] = (abs((1 - ((1 - (n[ii] + 1j * K[ii])) / ( 1 + (n[ii] + 1j * K[ii]))) ** 2)
+                                         / (cmath.exp(-2j * (n[ii] + 1j * K[ii]) * self.parameters.k[ii]
+                                                      * self.gui_values.d[0])
+                                            - ((1 - (n[ii] + 1j * K[ii])) / (1 + (n[ii] + 1j * K[ii]))) ** 2))) ** 2
+
+            self.prediction_2[ii] = (abs((1 - ((1 - (n[ii] + 1j * K[ii])) / ( 1 + (n[ii] + 1j * K[ii]))) ** 2)
+                                         / (cmath.exp(-2j * (n[ii] + 1j * K[ii]) * self.parameters.k[ii]
+                                                      * self.gui_values.d[1])
+                                            - ((1 - (n[ii] + 1j * K[ii])) / (1 + (n[ii] + 1j * K[ii]))) ** 2))) ** 2
+
+    def __init__(self, parameters, gui_values):
+        self.parameters = parameters
+        self.gui_values = gui_values
+        self.prediction_1 = np.zeros([np.shape(self.parameters.wavelengths)[0], 1])
+        self.prediction_2 = np.zeros([np.shape(self.parameters.wavelengths)[0], 1])
