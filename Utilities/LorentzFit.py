@@ -44,3 +44,5 @@ class LorentzFit(object):
         self.gui_values = gui_values
         self.prediction_1 = np.zeros([np.shape(self.parameters.wavelengths)[0], 1])
         self.prediction_2 = np.zeros([np.shape(self.parameters.wavelengths)[0], 1])
+
+
