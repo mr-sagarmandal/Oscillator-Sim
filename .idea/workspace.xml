@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72c0ab20-6b39-4965-bcd0-2831602d4994" name="Default Changelist" comment="Added License file and Main file">
-      <change afterPath="$PROJECT_DIR$/GUI/GUI_Values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitTests/GUI_Values_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utilities/Plotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI_Values.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LorentzFit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/LorentzFit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oscillator-sim.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oscillator-sim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/Parameters.py" afterDir="false" />
-    </list>
+    <list default="true" id="72c0ab20-6b39-4965-bcd0-2831602d4994" name="Default Changelist" comment="Added License file and Main file" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +12,7 @@
     <session id="2079259856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -35,14 +26,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="py" value="4924" />
+          <entry key="py" value="4944" />
           <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="4923" />
+          <entry key="Python" value="4943" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,14 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GUI/GUI_Values.py">
+        <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/GUI/GUI_Values.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="18" />
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="27" />
-              <caret line="47" column="18" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="18" />
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="14" />
-              <caret line="49" column="14" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#271#289#0" expanded="true" />
                 <marker date="1534107610602" expanded="true" signature="1117:1140" ph="..." />
@@ -83,10 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UnitTests/GUI_Values_Test.py">
+        <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/UnitTests/GUI_Values_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -118,10 +105,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="951" />
+    <option name="width" value="976" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -132,17 +120,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="Oscillator-Sim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oscillator-Sim" type="462c0819:PsiDirectoryNode" />
+              <item name="Oscillator_Sim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oscillator_Sim" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Oscillator-Sim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oscillator-Sim" type="462c0819:PsiDirectoryNode" />
+              <item name="Oscillator_Sim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oscillator_Sim" type="462c0819:PsiDirectoryNode" />
               <item name="GUI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Oscillator-Sim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oscillator-Sim" type="462c0819:PsiDirectoryNode" />
+              <item name="Oscillator_Sim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oscillator_Sim" type="462c0819:PsiDirectoryNode" />
               <item name="UnitTests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -154,7 +142,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -177,7 +165,7 @@
   </component>
   <component name="RunManager" selected="Python.GUI_Values_Test">
     <configuration name="GUI_Values_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Oscillator-Sim" />
+      <module name="Oscillator_Sim" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -198,7 +186,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Plotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Oscillator-Sim" />
+      <module name="Oscillator_Sim" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -216,6 +204,114 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Oscillator_Sim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Oscillator_Sim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Oscillator_Sim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Oscillator_Sim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="Oscillator_Sim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Oscillator_Sim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="Oscillator_Sim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
@@ -258,15 +354,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="951" y="0" width="976" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27884614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2782516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -289,7 +384,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-    <entry file="file://$PROJECT_DIR$/license.txt">
+    <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/license.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="674" lean-forward="true" selection-start-line="674" selection-end-line="674" />
@@ -297,7 +392,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LorentzFit" />
-    <entry file="file://$PROJECT_DIR$/Utilities/Plotter.py">
+    <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/Utilities/Plotter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
@@ -308,14 +403,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Oscillator-sim.py">
+    <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/Oscillator-sim.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/LorentzFit.py">
+    <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/Utilities/LorentzFit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
@@ -326,7 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/Parameters.py">
+    <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/Utilities/Parameters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
@@ -336,14 +431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/GUI_Values.py">
+    <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/GUI/GUI_Values.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="18" />
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="27" />
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="18" />
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="14" />
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#271#289#0" expanded="true" />
             <marker date="1534107610602" expanded="true" signature="1117:1140" ph="..." />
@@ -351,10 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTests/GUI_Values_Test.py">
+    <entry file="file://$PROJECT_DIR$/../Oscillator_Sim/UnitTests/GUI_Values_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

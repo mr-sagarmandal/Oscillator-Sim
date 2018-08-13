@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Oscillator-Sim.iml" filepath="$PROJECT_DIR$/.idea/Oscillator-Sim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Oscillator_Sim/.idea/Oscillator_Sim.iml" filepath="$PROJECT_DIR$/../Oscillator_Sim/.idea/Oscillator_Sim.iml" />
     </modules>
   </component>
 </project>
