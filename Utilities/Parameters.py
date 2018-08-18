@@ -10,6 +10,7 @@ this file. If not, please write to: sagar187@hotmail.com.
 import numpy as np
 import math
 
+
 class Parameters(object):
 
     def fetch_wavelength_array(self):
@@ -17,12 +18,12 @@ class Parameters(object):
         return wavelengths
 
     def fetch_k(self):
-        k = (2 * math.pi) / self.get_wavelength_array()
+        k = (2 * math.pi) / self.fetch_wavelength_array()
         return k
 
     def fetch_frequencies(self):
         frequencies = (2 * math.pi * 299792458 * 1000000) / \
-                      self.get_wavelength_array()
+                      self.fetch_wavelength_array()
         return frequencies
 
     def __init__(self):

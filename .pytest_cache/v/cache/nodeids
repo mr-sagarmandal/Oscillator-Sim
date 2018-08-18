@@ -1,1 +1,3 @@
-[]
+[
+  "UnitTests/GUI_Values_Test.py::test_instantiation"
+]
