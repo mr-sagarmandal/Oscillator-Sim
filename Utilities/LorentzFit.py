@@ -16,15 +16,15 @@ class LorentzFit(object):
     def compute_predictions(self):
         param_length = np.shape(self.parameters.wavelengths)[0]
         peaks_length = np.shape(self.gui_values.peaks)[0]
-        e = self.gui_values.e
 
         n = np.zeros([param_length, 1])
         K = np.zeros([param_length, 1])
 
         for ii in range(0, param_length):
             w = self.parameters.frequencies[ii]
+            e = self.gui_values.e
             for jj in range(0, peaks_length):
-                e = (e + self.gui_values.peak_strengths[jj] * (self.gui_values.peaks[jj] ** 2)) \
+                e = e + (self.gui_values.peak_strengths[jj] * (self.gui_values.peaks[jj] ** 2)) \
                     / ((self.gui_values.peaks[jj] ** 2) - (w ** 2) + (w * self.gui_values.delta[jj] * 1j))
 
             n[ii] = (cmath.sqrt(e)).real

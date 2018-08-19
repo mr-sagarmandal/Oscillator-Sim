@@ -16,7 +16,7 @@ class GUI_Values(object):
     def fetch_peak_wavelengths(self, values=None):
         if values is not None:
             peaks = values
-        peaks = 2 * math.pi * peaks
+        peaks = 2 * math.pi * 299792458 * 1000000 / peaks
         return peaks
 
     def fetch_peak_strengths(self, values=None):
@@ -43,7 +43,7 @@ class GUI_Values(object):
         return e
 
     def __init__(self, peaks=None, strengths=None, widths=None, thickness=None, e=None):
-        self.peaks = self.fetch_peak_wavelengths() if peaks is None else peaks
+        self.peaks = self.fetch_peak_wavelengths() if peaks is None else self.fetch_peak_wavelengths(peaks)
         self.peak_strengths = self.fetch_peak_strengths() if strengths is None else strengths
         self.delta = self.fetch_peak_widths() if widths is None else self.fetch_peak_widths(widths)
         self.d = self.fetch_film_thickness() if thickness is None else thickness

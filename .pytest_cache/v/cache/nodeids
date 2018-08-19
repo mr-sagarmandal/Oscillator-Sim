@@ -1,3 +1,5 @@
 [
-  "UnitTests/GUI_Values_Test.py::test_instantiation"
+  "UnitTests/GUI_Values_Test.py::test_constructor",
+  "UnitTests/LorentzFit_Test.py::test_computed_predictions",
+  "UnitTests/Parameters_Test.py::test_constructor"
 ]

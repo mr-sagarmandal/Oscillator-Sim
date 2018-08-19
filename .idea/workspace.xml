@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72c0ab20-6b39-4965-bcd0-2831602d4994" name="Default Changelist" comment="Added License file and Main file">
-      <change afterPath="$PROJECT_DIR$/UnitTests/Parameters_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Oscillator_Sim.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Oscillator_Sim.iml" afterDir="false" />
+    <list default="true" id="72c0ab20-6b39-4965-bcd0-2831602d4994" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Files/UnitTest_Results/lorentz_out.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitTests/LorentzFit_Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/GUI_Values.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/GUI_Values.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTests/GUI_Values_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/GUI_Values_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/Parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/Parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests/Parameters_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/Parameters_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utilities/LorentzFit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/LorentzFit.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,30 +62,33 @@
     <session id="364961588">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="346" />
+          <entry key="py" value="1966" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="346" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="1966" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -97,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GUI/GUI_Values.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+            <state relative-caret-position="126">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#271#289#0" expanded="true" />
               </folding>
@@ -109,10 +113,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitTests/GUI_Values_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="-13">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding>
-                <element signature="e#271#284#0" expanded="true" />
+                <marker date="1534714972224" expanded="true" signature="1549:1836" ph="..." />
               </folding>
             </state>
           </provider>
@@ -121,21 +125,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Utilities/Parameters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#271#289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitTests/Parameters_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+              <folding>
+                <marker date="1534715106103" expanded="true" signature="731:977" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UnitTests/Parameters_Test.py">
+        <entry file="file://$PROJECT_DIR$/UnitTests/LorentzFit_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="221">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
-                <element signature="e#270#281#0" expanded="true" />
-                <marker date="1534575438698" expanded="true" signature="683:911" ph="..." />
+                <marker date="1534715588299" expanded="true" signature="556:986" ph="..." />
+                <marker date="1534715588299" expanded="true" signature="1010:1015" ph="..." />
+                <marker date="1534715588299" expanded="true" signature="1327:1729" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Utilities/LorentzFit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -148,6 +177,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>self</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -163,14 +197,17 @@
         <option value="$PROJECT_DIR$/LorentzFit.py" />
         <option value="$PROJECT_DIR$/GUI_Values.py" />
         <option value="$PROJECT_DIR$/Utilities/Parameters.py" />
+        <option value="$PROJECT_DIR$/GUI/GUI_Values.py" />
+        <option value="$PROJECT_DIR$/Utilities/LorentzFit.py" />
         <option value="$PROJECT_DIR$/UnitTests/GUI_Values_Test.py" />
         <option value="$PROJECT_DIR$/UnitTests/Parameters_Test.py" />
+        <option value="$PROJECT_DIR$/UnitTests/LorentzFit_Test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="976" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -185,6 +222,17 @@
             <path>
               <item name="Oscillator_Sim" type="b2602c69:ProjectViewProjectNode" />
               <item name="Oscillator_Sim" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oscillator_Sim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oscillator_Sim" type="462c0819:PsiDirectoryNode" />
+              <item name="Files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oscillator_Sim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oscillator_Sim" type="462c0819:PsiDirectoryNode" />
+              <item name="Files" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitTest_Results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Oscillator_Sim" type="b2602c69:ProjectViewProjectNode" />
@@ -233,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GUI_Values_Test">
+  <component name="RunManager" selected="Python.LorentzFit_Test">
     <configuration name="GUI_Values_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Oscillator_Sim" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,6 +295,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTests/GUI_Values_Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LorentzFit_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Oscillator_Sim" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UnitTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UnitTests/LorentzFit_Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,9 +348,11 @@
     <list>
       <item itemvalue="Python.Plotter" />
       <item itemvalue="Python.GUI_Values_Test" />
+      <item itemvalue="Python.LorentzFit_Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LorentzFit_Test" />
         <item itemvalue="Python.GUI_Values_Test" />
         <item itemvalue="Python.Plotter" />
       </list>
@@ -312,21 +383,27 @@
       <option name="project" value="LOCAL" />
       <updated>1533446028216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added more unit tests.">
+      <created>1534575478759</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534575478759</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13804004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102212854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3253796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -334,6 +411,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,7 +422,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added License file and Main file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added License file and Main file" />
+    <MESSAGE value="Added more unit tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more unit tests." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
@@ -370,47 +449,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/LorentzFit.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="174">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/GUI_Values.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="68" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+        <state relative-caret-position="242">
+          <caret line="1654" selection-start-line="1654" selection-end-line="1654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/LorentzFit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilities/Parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#271#289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/Parameters.py">
+    <entry file="file://$PROJECT_DIR$/GUI/GUI_Values.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="126">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#271#289#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests/GUI_Values_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="-13">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
-            <element signature="e#271#284#0" expanded="true" />
+            <marker date="1534714972224" expanded="true" signature="1549:1836" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTests/Parameters_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="476">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
           <folding>
-            <element signature="e#270#281#0" expanded="true" />
-            <marker date="1534575438698" expanded="true" signature="683:911" ph="..." />
+            <marker date="1534715106103" expanded="true" signature="731:977" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/LorentzFit_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <marker date="1534715588299" expanded="true" signature="556:986" ph="..." />
+            <marker date="1534715588299" expanded="true" signature="1010:1015" ph="..." />
+            <marker date="1534715588299" expanded="true" signature="1327:1729" ph="..." />
           </folding>
         </state>
       </provider>
