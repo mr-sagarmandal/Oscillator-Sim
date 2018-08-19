@@ -6,11 +6,10 @@ terms of the GNU GPLv3 license.
 You should have received a copy of the GNU GPLv3 license with
 this file. If not, please write to: sagar187@hotmail.com.
 """
-import sys
-sys.path.append('..')
+
 import math
 import numpy as np
-from Oscillator_Sim.Utilities.Parameters import Parameters
+from Utilities.Parameters import Parameters
 
 
 def get_test_values():

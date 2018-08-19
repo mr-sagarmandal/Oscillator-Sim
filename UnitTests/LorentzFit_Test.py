@@ -6,15 +6,13 @@ terms of the GNU GPLv3 license.
 You should have received a copy of the GNU GPLv3 license with
 this file. If not, please write to: sagar187@hotmail.com.
 """
-import sys
-sys.path.append('..')
 
 import os
 import csv
 import numpy as np
-from Oscillator_Sim.UnitTests.GUI_Values_Test import get_sample_gui
-from Oscillator_Sim.Utilities.Parameters import Parameters
-from Oscillator_Sim.Utilities.LorentzFit import LorentzFit
+from UnitTests.GUI_Values_Test import get_sample_gui
+from Utilities.Parameters import Parameters
+from Utilities.LorentzFit import LorentzFit
 
 
 def get_file_location():
